@@ -56,25 +56,24 @@ $noindex = true;
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="..."></a>
+          <a class="navbar-brand" href="index.php"><img src="img/logo.png" alt="..."></a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
 			<li class="hidden-sm active">
-              <a href="index.html">Accueil</a>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Solutions <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="ecommerce.html">Paiement e-commerce</a></li>
-                <li><a href="B2B.html">Paiement inter-entreprises</a></li>
-              </ul>
+              <a href="index.php">Accueil</a>
             </li>
 			<li class="hidden-sm">
-              <a href="shopping-cart.html">Démonstration</a>
+              <a href="solutions.php">Solutions</a>
+            </li>
+			<li class="hidden-sm">
+              <a href="features.php">Features</a>
+            </li>
+			<li class="hidden-sm">
+              <a href="shopping-cart.php">Demonstration</a>
             </li>
             <li class="hidden-sm">
-              <a href="apropos.html">A propos</a>
+              <a href="about.php">How does it work ?</a>
             </li>
           </ul>
         </div><!--/.nav-collapse -->

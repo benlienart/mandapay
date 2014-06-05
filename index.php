@@ -90,45 +90,35 @@ include $path."/haut.php";
           </a>
         </div>
       </div> <!-- / .home-slider -->
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <h3 class="headline"><span>What is SEPA Direct Debit ?</span></h3>
+            <p>
+              Sed at porta tellus. Sed sit amet ipsum non dolor tincidunt vestibulum eget et urna. In et placerat eros. Curabitur tristique lacinia tortor ut ornare. Proin vehicula rhoncus fermentum. Integer scelerisque aliquam turpis. Quisque pellentesque, sem vel molestie posuere, orci sapien interdum mauris, eget condimentum purus arcu ut augue.
+            </p>
+            <div class="info-board info-board-blue">
+              <h4>Welcome Aboard</h4>
+              <p>
+                Nunc in neque nec arcu vulputate ullamcorper. Ut id orci ac arcu consectetur fringilla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <h3 class="headline"><span>How does SEPA Direct Debit work ?</span></h3>
+            <p>
+              Sed at porta tellus. Sed sit amet ipsum non dolor tincidunt vestibulum eget et urna. In et placerat eros. Curabitur tristique lacinia tortor ut ornare. Proin vehicula rhoncus fermentum. Integer scelerisque aliquam turpis. Quisque pellentesque, sem vel molestie posuere, orci sapien interdum mauris, eget condimentum purus arcu ut augue.
+            </p>
+            <div class="info-board info-board-blue">
+              <h4>Welcome Aboard</h4>
+              <p>
+                Nunc in neque nec arcu vulputate ullamcorper. Ut id orci ac arcu consectetur fringilla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+              </p>
+            </div>
+          </div>
+        </div>
 	
-	
-        <div class="container">
-            <div class="row">
-              <div class="col-sm-6">				
-                <h2>Acceptez les paiements sur votre site sans carte bancaire</h2>
-                    <ul style="list-style-type: none; padding: 0;">
-                      <li style="font-size: 18px; padding: 5px 0;"><i class="fa fa-chevron-circle-right fa-fw" style="color: #2babcf"></i> Pas de communication de données sensibles</li>
-                      <li style="font-size: 18px; padding: 5px 0;"><i class="fa fa-chevron-circle-right fa-fw" style="color: #2babcf"></i> Utilisable par plus de 200 Millions de personnes en Europe</li>
-                      <li style="font-size: 18px; padding: 5px 0;"><i class="fa fa-chevron-circle-right fa-fw" style="color: #2babcf"></i> Tarifs transparents</li>
-                    </ul>
-				</br>
-			<!-- Formulaire inscription -->
-            <h4>Bénéficiez de notre offre de lancement exclusive !</h4>
-			<form role="form">
-              <div class="well">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <div class="input-group">
-                      <input type="text" class="form-control" placeholder="Entrez votre adresse mail ici...">
-                      <span class="input-group-btn">
-                        <button class="btn btn-red" type="button">Inscrivez-moi!</button>
-                      </span>
-                    </div><!-- /input-group -->
-                  </div><!-- /.col-lg-6 -->
-                </div><!-- /.row -->
-              </div>
-            </form>
-
-              </div>
-              <div class="col-sm-6 hidden-xs">	
-                <img src="img/imac.png" alt="..." style="max-width: 80%;height: auto; margin: 0 auto; display: block;">
-				</br>	
-				</br>	
-              </div>
-            </div> <!-- / .row -->
-        </div> <!-- / .container -->
-
-
       <!-- Main Services -->
       <div class="main-services">
         <div class="container">
