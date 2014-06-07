@@ -3781,7 +3781,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding: 22.5px 15px;
   font-size: 18px;
   line-height: 20px;
-  height: 65px;
+  height: 100px;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
@@ -6138,7 +6138,7 @@ hr.arrow-down:after {
   font-size: 22px;
 }
 .navbar-brand > img {
-  height: 28px;
+  height: 56px;
   width: auto;
 }
 /*** Navbar Links ***/

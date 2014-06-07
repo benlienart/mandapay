@@ -73,7 +73,7 @@ $noindex = true;
               <a href="shopping-cart.php">Demonstration</a>
             </li>
             <li class="hidden-sm">
-              <a href="about.php">How does it work ?</a>
+              <a href="about.php">About us</a>
             </li>
           </ul>
         </div><!--/.nav-collapse -->
