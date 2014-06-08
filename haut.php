@@ -61,7 +61,7 @@ $noindex = true;
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
 			<li class="hidden-sm active">
-              <a href="index.php">Accueil</a>
+              <a href="index.php">Welcome</a>
             </li>
 			<li class="hidden-sm">
               <a href="solutions.php">Solutions</a>

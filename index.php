@@ -50,8 +50,8 @@ include $path."/haut.php";
                     <!--h3 class="animated slideInDown delay-3">Look No Further</h3-->
                     <ul>
                       <li class="animated slideInLeft delay-3"><i class="fa fa-chevron-circle-right fa-fw"></i> Available in over 32 countries, for more than 500 millions people</li>
-                      <li class="animated slideInLeft delay-4"><i class="fa fa-chevron-circle-right fa-fw"></i> </li>
-                      <li class="animated slideInLeft delay-5"><i class="fa fa-chevron-circle-right fa-fw"></i> Fully secure debit mandate solution thanks to digital signature</li>
+                      <li class="animated slideInLeft delay-4"><i class="fa fa-chevron-circle-right fa-fw"></i> Fit to the payment habits in every european country</li>
+                      <li class="animated slideInLeft delay-5"><i class="fa fa-chevron-circle-right fa-fw"></i> Give access to online payments to the 50% of cardless european</li>
                     </ul>
                  </div>
                  <div class="col-sm-6 hidden-xs">
@@ -211,7 +211,7 @@ include $path."/haut.php";
           <div class="responsive-design">
             <div class="row">
 				<div class="col-sm-6">
-				<img class="img-responsive" src="img/macbook.png" alt="..." id="macbook">
+				<img class="img-responsive" src="img/easy.png" alt="..." id="macbook">
 				</div>
 				<div class="col-sm-6">
                 <h2>Perfectly fit to recurring billing, subscriptions and B2B invoicing</h2>
@@ -235,39 +235,24 @@ include $path."/haut.php";
           <div class="responsive-design">
             <div class="row">
               <div class="col-sm-6">
-                <h2>Achat en 1-click</h2>
+                <h2>Easy to integrate to your website</h2>
                 <p class="lead text-muted">
-                Le paiement One Click permet d’améliorer l’expérience utilisateur en proposant aux clients d’enregistrer leurs coordonnées bancaires en vue d’achats ultérieurs. Ainsi, ils sont en mesure de valider leurs prochaines commandes en un seul clic.
-				L’intégration et la gestion du One Click ne nécessite aucun agrément particulier : nous ne stockons pas de données bancaires sensibles. 
+                Integrate payment to your website with few lines of code
                 </p>
+                <p class="lead text-muted">
+				Use our simple, well-documented API
+				</p>
+                <p class="lead text-muted">
+				Standard and interoperable ISO20022 XML payment orders
+				</p>
               </div>
               <div class="col-sm-6">
-                <img class="img-responsive" src="img/macbook.png" alt="..." id="macbook">
+                <img class="img-responsive" src="img/API.png" alt="..." id="macbook">
               </div>
             </div> <!-- / .row -->
           </div> <!-- / .template-thumbnails -->
         </div> <!-- / .container -->
       </div> <!-- / .template-showcase --> 
-	  
-	  
-	  <div class="responsive-showcase">
-        <div class="container">
-          <div class="responsive-design">
-            <div class="row">
-				<div class="col-sm-6">
-				<img class="img-responsive" src="img/macbook.png" alt="..." id="macbook">
-				</div>
-				<div class="col-sm-6">
-                <h2>Pas de plafond de paiement</h2>
-                <p class="lead text-muted">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ipsum varius, tincidunt odio nec, placerat enim. 
-                </p>
-              </div>
-			  
-		            </div> <!-- / .row -->
-          </div> <!-- / .template-thumbnails -->
-        </div> <!-- / .container -->
-      </div> <!-- / .template-showcase -->
 
    </div> <!-- / .wrapper -->
 
