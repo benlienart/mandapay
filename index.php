@@ -247,7 +247,7 @@ include $path."/haut.php";
 				</p>
               </div>
               <div class="col-sm-6">
-                <img class="img-responsive" src="img/API.png" alt="..." id="macbook">
+                <img class="img-responsive" src="img/api.png" alt="..." id="macbook">
               </div>
             </div> <!-- / .row -->
           </div> <!-- / .template-thumbnails -->
