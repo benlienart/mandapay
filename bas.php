@@ -7,16 +7,12 @@
             <h4><i class="fa fa-map-marker text-red"></i> Contact Us</h4>
             <p>Do not hesitate to contact us if you have any questions or feature requests:</p>
             <p>
-              San Francisco, CA 94101<br />
-              1987 Lincoln Street<br />
-              Phone: +0 000 000 00 00<br />
-              Fax: +0 000 000 00 00<br />
-              Email: <a href="#">admin@mandapay.com</a>
+              Email: <a href="#">contact@mandapay.com</a>
             </p>
           </div>
           <!-- Recent Tweets -->
           <div class="col-sm-4">
-            <h4><i class="fa fa-twitter-square text-red"></i> Recent Tweets</h4>
+            <!--h4><i class="fa fa-twitter-square text-red"></i> Recent Tweets</h4>
             <div class="tweet">
               <i class="fa fa-twitter fa-2x"></i>
               <p>
@@ -30,15 +26,13 @@
                 Mauris eget lacus ut ipsum dignissim malesuada quis nec ante.
                 <a href="#">2 days ago</a>
               </p>
-            </div>
+            </div-->
           </div>
           <!-- Newsletter -->
           <div class="col-sm-4">
-            <h4><i class="fa fa-envelope text-red"></i> Newsletter</h4>
+            <!--h4><i class="fa fa-envelope text-red"></i> Newsletter</h4>
             <p>
               Enter your e-mail below to subscribe to our free newsletter.
-              <br>
-              We promise not to bother you often!
             </p>
             <form class="form" role="form">
               <div class="row">
@@ -52,7 +46,7 @@
                   </div>
                 </div>
               </div>
-            </form>
+            </form-->
           </div>
         </div>
       </div>
