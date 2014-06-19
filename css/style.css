@@ -6446,7 +6446,7 @@ a.carousel-arrow-next {
 }
 /* ===== Topic Header ===== */
 .topic {
-  margin-top: -30px;
+  margin-top: 0px;
   margin-bottom: 40px;
   border-bottom: 1px solid #eee;
   background: #f6f6f6;

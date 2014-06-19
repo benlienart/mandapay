@@ -16,13 +16,13 @@ include $path."/haut.php";
         <div class="container">
           <div class="row">
             <div class="col-sm-4">
-              <h3>Signature Mandat SDD</h3>
+              <h3>Sign your mandate</h3>
             </div>
             <div class="col-sm-8">
               <ol class="breadcrumb pull-right hidden-xs">
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="index.html">Boutique e-commerceCo</a></li>
-                <li class="active">Signature Mandat SDD</li>
+                <li><a href="index.html">Welcome</a></li>
+                <li><a href="index.html">E-commerceCo shop</a></li>
+                <li class="active">Sign your mandate</li>
               </ol>
             </div>
           </div>
@@ -32,7 +32,7 @@ include $path."/haut.php";
       <div class="container shopping-cart">
         <div class="row">
           <div class="col-sm-4">
-		  	<h3 class="headline"><span>Votre commande</span></h3>
+		  	<h3 class="headline"><span>Order sum-up</span></h3>
             <table class="table table-bordered">
               <thead>
                 <tr>
@@ -48,7 +48,7 @@ include $path."/haut.php";
                       Product Title #1
                     </div>
                   </td>
-                  <td>$339,00</td>
+                  <td>€339,00</td>
                   <td>1</td>
                 </tr>
                 <tr>
@@ -57,7 +57,7 @@ include $path."/haut.php";
                       Product Title #2
                     </div>
                   </td>
-                  <td>$210,00</td>
+                  <td>€210,00</td>
                   <td>1</td>
                 </tr>
                 <tr>
@@ -66,18 +66,18 @@ include $path."/haut.php";
                       Product Title #3
                     </div>
                   </td>
-                  <td>$50,00</td>
+                  <td>€50,00</td>
                   <td>1</td>
                 </tr>
               </tbody>
             </table>
             <ul class="text-right checkout">
-              <li><strong>Total Price</strong>: $599</li>
+              <li><strong>Total Price</strong>: €599</li>
               <li><strong>Shipping</strong>: Free</li>
             </ul>
           </div>
           <div class="col-sm-8">
-			<h3 class="headline"><span>Votre mandat SDD</span></h3>
+			<h3 class="headline"><span>Your SEPA SDD mandate</span></h3>
 			 <div class="row">
 				<div class="col-sm-4" style="vertical-align;">
 					<a href="index.html"><img class="img-responsive" src="img/logo.png" alt="..."></a>
@@ -187,7 +187,7 @@ include $path."/haut.php";
 				             
 				<br/>
 				<br/>
-							 <a href="shopping-cart4.php"  class="btn btn-lg btn-red">Signer le mandat</a>	
+							 <a href="shopping-cart4.php"  class="btn btn-lg btn-red">Sign the mandate</a>	
 
 				</div>
 

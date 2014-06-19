@@ -16,13 +16,13 @@ include $path."/haut.php";
         <div class="container">
           <div class="row">
             <div class="col-sm-4">
-              <h3>Confirmation de la commande</h3>
+              <h3>Order confirmation</h3>
             </div>
             <div class="col-sm-8">
               <ol class="breadcrumb pull-right hidden-xs">
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="index.html">Boutique e-commerceCo</a></li>
-                <li class="active">Confirmation de la commande</li>
+                <li><a href="index.html">Welcome</a></li>
+                <li><a href="index.html">E-commerceCo shop</a></li>
+                <li class="active">Order confirmation</li>
               </ol>
             </div>
           </div>
@@ -32,7 +32,7 @@ include $path."/haut.php";
       <div class="container shopping-cart">
         <div class="row">
           <div class="col-sm-4">
-		  	<h3 class="headline"><span>Votre commande</span></h3>
+		  	<h3 class="headline"><span>Order sum-up</span></h3>
             <table class="table table-bordered">
               <thead>
                 <tr>
@@ -48,7 +48,7 @@ include $path."/haut.php";
                       Product Title #1
                     </div>
                   </td>
-                  <td>$339,00</td>
+                  <td>€339,00</td>
                   <td>1</td>
                 </tr>
                 <tr>
@@ -57,7 +57,7 @@ include $path."/haut.php";
                       Product Title #2
                     </div>
                   </td>
-                  <td>$210,00</td>
+                  <td>€210,00</td>
                   <td>1</td>
                 </tr>
                 <tr>
@@ -66,21 +66,20 @@ include $path."/haut.php";
                       Product Title #3
                     </div>
                   </td>
-                  <td>$50,00</td>
+                  <td>€50,00</td>
                   <td>1</td>
                 </tr>
               </tbody>
             </table>
             <ul class="text-right checkout">
-              <li><strong>Total Price</strong>: $599</li>
+              <li><strong>Total Price</strong>: €599</li>
               <li><strong>Shipping</strong>: Free</li>
             </ul>
           </div>
           <div class="col-sm-8">
-			<h3 class="headline"><span>Confirmation de votre commande</span></h3>
+			<h3 class="headline"><span>Order confirmation</span></h3>
 			 <div class="info-board info-board-blue">
-<h4>Votre commande est maintenant confirmée!</h4>
-<p> Nunc in neque nec arcu vulputate ullamcorper. Ut id orci ac arcu consectetur fringilla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+<h4>Your order is confirmed !</h4>
 </div>
 			 
 

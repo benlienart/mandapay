@@ -16,13 +16,13 @@ include $path."/haut.php";
         <div class="container">
           <div class="row">
             <div class="col-sm-4">
-              <h3>Inscription MandaPay</h3>
+              <h3>Register with Mandapay</h3>
             </div>
             <div class="col-sm-8">
               <ol class="breadcrumb pull-right hidden-xs">
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="index.html">Boutique e-commerceCo</a></li>
-                <li class="active">Inscription MandaPay</li>
+                <li><a href="index.html">Welcome</a></li>
+                <li><a href="index.html">E-commerceCo shop</a></li>
+                <li class="active">Register with Mandapay</li>
               </ol>
             </div>
           </div>
@@ -32,7 +32,7 @@ include $path."/haut.php";
       <div class="container shopping-cart">
         <div class="row">
           <div class="col-sm-4">
-		  	<h3 class="headline"><span>Votre commande</span></h3>
+		  	<h3 class="headline"><span>Order sum-up</span></h3>
             <table class="table table-bordered">
               <thead>
                 <tr>
@@ -48,7 +48,7 @@ include $path."/haut.php";
                       Product Title #1
                     </div>
                   </td>
-                  <td>$339,00</td>
+                  <td>€339,00</td>
                   <td>1</td>
                 </tr>
                 <tr>
@@ -57,7 +57,7 @@ include $path."/haut.php";
                       Product Title #2
                     </div>
                   </td>
-                  <td>$210,00</td>
+                  <td>€210,00</td>
                   <td>1</td>
                 </tr>
                 <tr>
@@ -66,25 +66,25 @@ include $path."/haut.php";
                       Product Title #3
                     </div>
                   </td>
-                  <td>$50,00</td>
+                  <td>€50,00</td>
                   <td>1</td>
                 </tr>
               </tbody>
             </table>
             <ul class="text-right checkout">
-              <li><strong>Total Price</strong>: $599</li>
+              <li><strong>Total Price</strong>: €599</li>
               <li><strong>Shipping</strong>: Free</li>
             </ul>
           </div>
           <div class="col-sm-8">
-			<h3 class="headline"><span>Votre paiement par mandat SDD</span></h3>
+			<h3 class="headline"><span>Pay with a SEPA SDD mandate</span></h3>
 			 <div class="row">
 			 			     <div class="col-sm-4">
 				</div>
 			     <div class="col-sm-4">
 				<a href="index.html"><img class="img-responsive" src="img/logo.png" alt="..."></a>
 								<br/>
-								<h4 class="text-center ; color: #e9e9e9">Ou</h4>
+								<h4 class="text-center ; color: #e9e9e9">Or</h4>
 
 				</div>
 							     <div class="col-sm-4">
@@ -92,29 +92,29 @@ include $path."/haut.php";
               <div class="col-sm-6">
                 <!-- Panel default -->
                 <div class="panel panel-default">
-                  <div class="panel-heading">Rentrez vos informations</div>
+                  <div class="panel-heading">Register with Mandapay</div>
                   <div class="panel-body">
 					<form role="form">
 					<div class="form-group">
-					<input type="prenom" class="form-control" id="prenom" placeholder="Prénom" style="width: 280px;">
+					<input type="prenom" class="form-control" id="name" placeholder="Name" style="width: 280px;">
 					</div>
 					<div class="form-group">
-					<input type="nom" class="form-control" id="nom" placeholder="Nom" style="width: 280px;">
+					<input type="nom" class="form-control" id="surname" placeholder="Surname" style="width: 280px;">
 					</div>					
 					<div class="form-group">
-					<input type="adresse" class="form-control" id="adresse" placeholder="Adresse" style="width: 280px;">
+					<input type="adresse" class="form-control" id="address" placeholder="Address" style="width: 280px;">
 					</div>			
 					<div class="form-group">
-					<input type="cp" class="form-control" id="cp" placeholder="Code postal" style="width: 280px;">
+					<input type="cp" class="form-control" id="zipcode" placeholder="Zip code" style="width: 280px;">
 					</div>	
 					<div class="form-group">
-					<input type="ville" class="form-control" id="ville" placeholder="Ville" style="width: 280px;">
+					<input type="ville" class="form-control" id="city" placeholder="City" style="width: 280px;">
 					</div>					
 					<div class="form-group">
 					<input type="email" class="form-control" id="email" placeholder="Email" style="width: 280px;">
 					</div>
 					<div class="form-group">
-					<input type="mobile" class="form-control" id="mobile" placeholder="N° mobile" style="width: 280px;">
+					<input type="mobile" class="form-control" id="cell" placeholder="Cell" style="width: 280px;">
 					</div>
             </form>
 
@@ -122,7 +122,7 @@ include $path."/haut.php";
                 </div>
 				                <!-- Panel default -->
                 <div class="panel panel-default">
-                  <div class="panel-heading">Vos coordonnées bancaires</div>
+                  <div class="panel-heading">Your bank account number</div>
                   <div class="panel-body">
 					<form role="form">
 					<div class="form-group">
@@ -131,7 +131,7 @@ include $path."/haut.php";
 					<div class="form-group">
 					<input type="IBAN" class="form-control" id="IBAN" placeholder="IBAN" style="width: 280px;">
 					</div>					
-              <a href="shopping-cart3.php"  class="btn btn-lg btn-red">Payer</a>	
+              <a href="shopping-cart3.php"  class="btn btn-lg btn-red">Pay</a>	
             </form>
                   </div>
                 </div>
@@ -140,15 +140,15 @@ include $path."/haut.php";
                 <!-- Panel red -->
 				
                 <div class="panel panel-default">				
-                  <div class="panel-heading">Vous avez déjà un compte MandaPay</div>
+                  <div class="panel-heading">Already registered with Mandapay ?</div>
                   <div class="panel-body">
 					<div class="form-group">
 					<input type="email" class="form-control" id="email" placeholder="Email" style="width: 280px;">
 					</div>
 					<div class="form-group">
-					<input type="mdp" class="form-control" id="mdp" placeholder="Mot de passe" style="width: 280px;">
+					<input type="mdp" class="form-control" id="mdp" placeholder="Password" style="width: 280px;">
 					</div>					
-				<a href="shopping-cart3.php"  class="btn btn-lg btn-red">Payer</a>
+				<a href="shopping-cart3.php"  class="btn btn-lg btn-red">Pay</a>
 				
 			</form>
                   </div>

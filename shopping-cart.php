@@ -16,13 +16,13 @@ include $path."/haut.php";
         <div class="container">
           <div class="row">
             <div class="col-sm-4">
-              <h3>Panier</h3>
+              <h3>Shopping cart</h3>
             </div>
             <div class="col-sm-8">
               <ol class="breadcrumb pull-right hidden-xs">
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="index.html">Boutique e-commerceCo</a></li>
-                <li class="active">Panier</li>
+                <li><a href="index.html">Welcome</a></li>
+                <li><a href="index.html">E-commerceCo shop</a></li>
+                <li class="active">Shopping cart</li>
               </ol>
             </div>
           </div>
@@ -49,7 +49,7 @@ include $path."/haut.php";
                       <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ipsum varius, tincidunt odio nec, placerat enim.</p>
                     </div>
                   </td>
-                  <td>$339,00</td>
+                  <td>€339,00</td>
                   <td><input type="number" name="pcs" value="1" class="form-control"></td>
                 </tr>
                 <tr>
@@ -60,7 +60,7 @@ include $path."/haut.php";
                       <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ipsum varius, tincidunt odio nec, placerat enim.</p>
                     </div>
                   </td>
-                  <td>$210,00</td>
+                  <td>€210,00</td>
                   <td><input type="number" name="pcs" value="1" class="form-control"></td>
                 </tr>
                 <tr>
@@ -71,15 +71,15 @@ include $path."/haut.php";
                       <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ipsum varius, tincidunt odio nec, placerat enim.</p>
                     </div>
                   </td>
-                  <td>$50,00</td>
+                  <td>€50,00</td>
                   <td><input type="number" name="pcs" value="1" class="form-control"></td>
                 </tr>
               </tbody>
             </table>
             <ul class="text-right checkout">
-              <li><strong>Total Price</strong>: $599</li>
+              <li><strong>Total Price</strong>: €599</li>
               <li><strong>Shipping</strong>: Free</li>
-              <li><a href="shopping-cart2.php" class="btn btn-lg btn-red">Payer avec MandaPay</a></li>
+              <li><a href="shopping-cart2.php" class="btn btn-lg btn-red">Pay with MandaPay</a></li>
             </ul>
           </div>
         </div> <!-- / .row -->      

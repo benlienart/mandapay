@@ -62,19 +62,19 @@ $noindex = true;
           <ul class="nav navbar-nav navbar-right">
 			<li class="hidden-sm active">
               <a href="index.php">Welcome</a>
+            <!--/li>
+			<li class="hidden-sm">
+              <a href=#>Solutions</a>
             </li>
 			<li class="hidden-sm">
-              <a href="solutions.php">Solutions</a>
-            </li>
-			<li class="hidden-sm">
-              <a href="features.php">Features</a>
-            </li>
+              <a href=#>Features</a>
+            </li-->
 			<li class="hidden-sm">
               <a href="shopping-cart.php">Demonstration</a>
             </li>
-            <li class="hidden-sm">
-              <a href="about.php">About us</a>
-            </li>
+            <!--li class="hidden-sm">
+              <a href=#>About us</a>
+            </li-->
           </ul>
         </div><!--/.nav-collapse -->
       </div>
