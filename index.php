@@ -10,251 +10,232 @@ include $path."/haut.php";
 
 	<!-- Wrapper -->
     <div class="wrapper">
-		<!-- Home Slider -->
-		<div class="home-slider">
-        <!-- Carousel -->
-        <div id="home-slider" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#home-slider" data-slide-to="0" class="active"></li>
-            <li data-target="#home-slider" data-slide-to="1"></li>
-            <li data-target="#home-slider" data-slide-to="2"></li>
-          </ol>
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner">
-            <!-- Slide #1 -->
-            <div class="item active" id="item-3">
-              <div class="container">
-                <div class="row">
-                  <div class="col-sm-6">
-                    <h1 class="first-child animated slideInDown delay-2">Accept payments on your website without credit card</h1>
-                    <!--h3 class="animated slideInDown delay-3">Look No Further</h3-->
-                    <ul>
-                      <li class="animated slideInLeft delay-3"><i class="fa fa-chevron-circle-right fa-fw"></i> No registration, all you need is a bank account</li>
-                      <li class="animated slideInLeft delay-4"><i class="fa fa-chevron-circle-right fa-fw"></i> No banking cards data communication</li>
-                      <li class="animated slideInLeft delay-5"><i class="fa fa-chevron-circle-right fa-fw"></i> Secure debit solution thanks to digital signature</li>
-                    </ul>
-                 </div>
-                 <div class="col-sm-6 hidden-xs">
-                 <img class="img-responsive" src="img/iphone.png" alt="...">
-                 </div>
-                </div> <!-- / .row -->
-              </div> <!-- / .container -->            
-            </div> <!-- / .item -->
-            <!-- Slide #2 -->
-            <div class="item" id="item-3">
-              <div class="container">
-                <div class="row">
-                  <div class="col-sm-6">
-                    <h1 class="first-child animated slideInDown delay-2">Pan-european payment solution</h1>
-                    <!--h3 class="animated slideInDown delay-3">Look No Further</h3-->
-                    <ul>
-                      <li class="animated slideInLeft delay-3"><i class="fa fa-chevron-circle-right fa-fw"></i> Available in over 32 countries, for more than 500 millions people</li>
-                      <li class="animated slideInLeft delay-4"><i class="fa fa-chevron-circle-right fa-fw"></i> Fit to the payment habits in every european country</li>
-                      <li class="animated slideInLeft delay-5"><i class="fa fa-chevron-circle-right fa-fw"></i> Give access to online payments to the 50% of cardless european</li>
-                    </ul>
-                 </div>
-                 <div class="col-sm-6 hidden-xs">
-                 <img class="img-responsive" src="img/ipad.png" alt="...">
-                 </div>
-                </div> <!-- / .row -->
-              </div> <!-- / .container -->            
-            </div> <!-- / .item -->
- 
-			<!-- Slide #3 -->
-            <div class="item" id="item-3">
-              <div class="container">
-                <div class="row">
-                  <div class="col-sm-6">
-                    <h1 class="first-child animated slideInDown delay-2">Direct Debit made easy</h1>
-                    <!--h3 class="animated slideInDown delay-3">Look No Further</h3-->
-                    <ul>
-                      <li class="animated slideInLeft delay-3"><i class="fa fa-chevron-circle-right fa-fw"></i> Easy and fast to integrate to your website </li>
-                      <li class="animated slideInLeft delay-4"><i class="fa fa-chevron-circle-right fa-fw"></i> No administrative burden of paper mandates</li>
-                      <li class="animated slideInLeft delay-5"><i class="fa fa-chevron-circle-right fa-fw"></i> Your payment page at your own design</li>
-                    </ul>
-                 </div>
-                 <div class="col-sm-6 hidden-xs">
-                 <img class="img-responsive" src="img/imac.png" alt="...">
-                 </div>
-                </div> <!-- / .row -->
-              </div> <!-- / .container -->            
-            </div> <!-- / .item -->
-          </div> <!-- / .carousel -->
-          <!-- Controls -->
-          <a class="carousel-arrow carousel-arrow-prev" href="#home-slider" data-slide="prev">
-            <i class="fa fa-angle-left"></i>
-          </a>
-          <a class="carousel-arrow carousel-arrow-next" href="#home-slider" data-slide="next">
-            <i class="fa fa-angle-right"></i>
-          </a>
-        </div>
-      </div> <!-- / .home-slider -->
-          <div class="main-services">
-		          <div class="container">
-          <div class="row">
-          <div class="col-sm-12">
-		  <h2> SEPA Direct Debit for e-commerce by MandaPay</h2>
-		  </br>
-		  </br>
-		  </div>
-		  </div>
-		  </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <h3 class="headline"><span>What is SEPA Direct Debit ?</span></h3>
-            <p>
-			In order to make cashless payments throughout Europe easier, more efficient and safer, in 2008, the Single Euro Payments Area SEPA (Single Euro Payments Area) was created. SEPA provides uniform procedures and standards for credit transfers and direct debits.
-			</p>
-			<p>
-			SEPA-Direct-Debit is the payment for Europe. More than 600 million Europeans can pay their online shopping with SEPA-Direct-Debit ( A pan-European system similar to ACH Automated Clearing House). Including Payment Guarantee if required.
-			</p>
-			<p>
-			Technically realized in 32 European countries SEPA can be used by all consumers.            
-			</p>
-			<p>
-			SEPA-Direct-Debit is ideal for Internet merchants who want offer goods and services throughout Europe.
-			<p>
-			The fact that all Europeans having a bank account are able to use SEPA-Direct-Debit leads to an enormous number of potential customers.
-			<p>In the past, internet merchants had to offer all the different national payment methods. Today, with SEPA-Direct-Debit there is a single solution for all European countries available as an ideal completion to credit cards.
-			<ul>
-			<li>
-			With SEPA-Direct-Debit any European consumer, without credit cards or showing hesitation in registration with systems like Paypal, can pay.
-			</li>
-			<li>
-			The sole requirement for the consumer is having a bank account.
-			</li>
-			<li>
-			Unlike credit cards, SEPA-Direct-Debit enables merchants to store consumers’ pay details for a convenient payment process for recurring payments without having the customer to re-insert his details. (One-Click-Shopping).
-			<li>
-			In the past, a merchant wishing to use direct debit payment, was obliged to open a bank account in each concerning country (national Direct Debit), without having to comply to restrictive regulations like PCI-DSS.
-			</li>
-			</ul>
-			<p>
-			Today, with SEPA-Direct-Debit, one sole bank account in any European country is sufficient to enable consumers throughout Europe to pay via SEPA-Direct-Debit. Including Payment Guarantee if required.
-			</p>
-		  </div>
-          <div class="col-sm-6">
-            <h3 class="headline"><span>How does SEPA Direct Debit work ?</span></h3>
-            <p>
-			Technically realized in 32 European countries SEPA can be used by all consumers.
-			</p>
-			<p>
-			The consumer can pay immediately with SEPA-Direct-Debit. The legitimization is done on the screen.
-			</p>
-			<p>
-			SEPA-Direct-Debit can be used for eCommerce (with computers) and for MCommerce (with smartphones-e.g. i-Phone or Android- or Tablet-PCs).
-			<p>
-			The consumer creates a written SEPA-mandate by signing with his computer mouse or with his finger on the screen, similar to Check 21 in the USA.
-			</p>
-			<p>
-			There are numerous benefits for the consumers:
-			<ul>
-			<li>No need of registration</li>
-			<li>No software download</li>
-			<li>No additional checking, no additional requirements</li>
-			<li>The only requirement for the consumer is having a bank account</li>
-			</ul>
-			</p>
-			<p>
-			SEPA-Direct-Debit is ideal for Digital Goods. If you offer software downloads, music or videos, you could easily do this throughout Europe with the SEPA-Direct-Debit.
-			</p>
-			<p>
-			When ordering the customer inserts her/his name address and banking details.
-			</p>
-			<p>
-			For recurring payments, e.g. memberships, customer details can be stored and re-used.
-			</p>
-			<p>
-			For following deductions (recurring payments) the consumer is not obliged to fill in his details again. Payment details of the consumer can be stored by the merchant to process on a regularly basis depending on the contractual agreement. (E.g. monthly payments) Gaming and gambling providers could reprocess their steady customers with stored customer details for topping up their account.
-			</p>	
-		  </div>
-        </div>
-	</div>
-	</div>
-	            <!-- Browser Showcase -->
-          <div class="main-services">
-        <div class="container">
-          <div class="row">
-          <div class="col-sm-12">
-            <h2>The benefits of SEPA Direct Debit by MandaPay</h2>
-          </div>
-        </div> <!-- / .row -->
-      </div> <!-- / .container -->
-	  </div>
-	<div class="responsive-showcase">
-        <div class="container">
-          <div class="responsive-design">
-            <div class="row">
-              <div class="col-sm-6">
-                <h2>Boost your online conversion rate</h2>
-                <p class="lead text-muted">
-                Integrate seamlessly with your website. 
-                </p>
-                <p class="lead text-muted">				
-				Keep your design, at no additionnal cost.
-                </p>
-                <p class="lead text-muted">
-				Use our clean RESTful API
-				</p>
+		<div class="hero-img" style="position: absolute; z-index: 10;">				
+			<img src="img/image-3.png" style="width: 100%;"></img>	              
+        </div> 	
+		<div class="container" style="position: relative; z-index: 20;">
+			<div class="row">
+              <div class="col-sm-8" style="padding-top: 10%;text-align: center;">				
+                <h1 style="font-size: 45px;">Accept direct debit online without hassle</h1>
               </div>
-              <div class="col-sm-6">
-                <img class="img-responsive" src="img/conversion.png" alt="...">
+              <div class="col-sm-4" style="padding-top: 50px;">
+				<img src="img/form.png" style="width: 100%"></img>	
               </div>
             </div> <!-- / .row -->
-          </div> <!-- / .template-thumbnails -->
         </div> <!-- / .container -->
-      </div> <!-- / .template-showcase -->
-      <div class="responsive-showcase">
-        <div class="container">
-          <div class="responsive-design">
-            <div class="row">
-				<div class="col-sm-6">
-				<img class="img-responsive" src="img/easy.png" alt="..." id="macbook">
+        
+	<div class="nooverlapp" style="background-color: #ffffff; position: relative; z-index: 30;margin-top: 130px;">	
+
+		<div class="container" style="background-color: #ffffff;">
+			<div class="row">
+				<div class="col-sm-12" style="text-align: center;">
+					<h2> Want to know more about Mandapay ?</h2>
 				</div>
+			</div>
+			<div class="row" style="margin-top: 15px;margin-bottom: 40px;">
 				<div class="col-sm-6">
-                <h2>Perfectly fit to recurring billing, subscriptions and B2B invoicing</h2>
-                <p class="lead text-muted">
-                Automate repeat payments and collect from account customers at the click of a button
-                </p>
-                <p class="lead text-muted">
-				No more late payments. With Direct Debit you control when you get paid
-				</p>
-                <p class="lead text-muted">
-				Expect monthly failures of less than 1% vs 3%+ with cards. Automatically retry failed payments
-                </p>
-              </div>
+					<form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+						<div class="input-group double-input input-group-lg">
+							<select name="whoAmI" class="form-control">
+								<option value="merchant">I am a merchant...</option>
+								<option value="buyer">I am a buyer...</option>
 
-            </div> <!-- / .row -->
-          </div> <!-- / .template-thumbnails -->
-        </div> <!-- / .container -->
-      </div> <!-- / .template-showcase -->
-      <div class="responsive-showcase">
-        <div class="container">
-          <div class="responsive-design">
-            <div class="row">
-              <div class="col-sm-6">
-                <h2>Easy to integrate to your website</h2>
-                <p class="lead text-muted">
-                Integrate payment to your website with few lines of code
-                </p>
-                <p class="lead text-muted">
-				Use our simple, well-documented API
-				</p>
-                <p class="lead text-muted">
-				Standard and interoperable ISO20022 XML payment orders
-				</p>
-              </div>
-              <div class="col-sm-6">
-                <img class="img-responsive" src="img/api.png" alt="..." id="macbook">
-              </div>
-            </div> <!-- / .row -->
-          </div> <!-- / .template-thumbnails -->
-        </div> <!-- / .container -->
-      </div> <!-- / .template-showcase --> 
+							</select>
+						<input type="text" name="mail" class="form-control" placeholder="...here's my email">
+							<span class="input-group-btn">
+							<button type="submit" class="btn btn-lg btn-danger">Try it now!</button>
+							</span>
+						</div>
+						<?php
+						if (isset($_POST['mail'])&&isset($_POST['whoAmI']))
+						{
+							$email = $_POST['mail'];
+							$whoAmI = $_POST['whoAmI']; 
+							if(preg_match('#^[\w.-]+@[\w.-]+\.[a-zA-Z]{2,6}$#', $email)) 
+							{
+							  $name = "emails.txt";
+							  $file = fopen($name, "a");
+							  fwrite($file, $email.";"."$whoAmI"."\r\n");
+							  fclose($file);
+							  $message = "Bonjour,
+					  
+Nous vous confirmons l'inscription de votre adresse email sur notre liste de diffusion.
 
-   </div> <!-- / .wrapper -->
+Nous vous informerons des actualités de Mandapay et nous vous enverrons des invitations pour utiliser nos services.
+
+A très bientôt sur Mandapay !
+L’équipe Mandapay
+http://www.mandapay.com";
+							  /*send_email($from = "contact@mandapay.com", $email, "Mandapay : confirmation d'inscription", $message, $cci = "contact@lawcracy.com", $piecejointe = false);*/					  
+							  echo '<span style="color: green; font-size: 18px;">Thanks for your interest, we will keep you posted !</span>';
+							} else
+							{
+								echo '<span style="color: red; font-size: 18px;">Wrong email address, please check and retry !</span>';
+							}
+						}
+						?>
+
+					</form>
+				</div>		
+				<div class="col-sm-6" style="text-align: center">
+					<a class="btn btn-lg btn-default" href="#howItWorks" style="height: 46px; font-size: 18px; color: #396584; border: 2px solid #396584;">Tell me more</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<div class="howitworks" id="howItWorks"  style="border-top: 1px solid #ddd; padding: 25px 0; background-color: #ffffff; position: relative;">	
+
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12" style="text-align: center;">
+					<h2> How does Mandapay work ?</h2>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4" style="text-align: center;">
+				<img src="img/icon_howitworks1.png" alt="..." style="margin:auto; clear: both; width: 300px;">
+				<h3>Chose Mandapay</h3>
+				</div>
+				<div class="col-sm-4" style="text-align: center;">
+				<img src="img/icon_howitworks2.png" alt="..." style="margin:auto; clear: both; width: 300px;">
+				<h3>Enter your personnal data, BIC and IBAN</h3>
+				</div>		
+				<div class="col-sm-4" style="text-align: center;">
+				<img src="img/icon_howitworks3.png" alt="..." style="margin:auto; clear: both; width: 300px;">
+				<h3>Sign your SEPA direct debit mandate...and that's it !</h3>
+				</div>	
+
+			</div>
+		</div>
+	</div>
+
+	<div class="whyMandapay_inner" id="whyMandapay" style="border-top: 1px solid #ddd; padding: 25px 0; background-color: white;">	
+
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12" style="text-align: center;">
+					<h2> Why Mandapay ?</h2>
+				</div>
+			<div class="col-sm-12">
+			<h3> Who should use Mandapay</h3>
+			</div>
+			<div class="col-sm-4">
+              <div class="services">
+                <div class="service-item">
+                  <i class="fa fa-umbrella"></i>
+                  <div class="service-desc">
+                    <h4>Insurances</h4>
+                  </div>
+                </div>
+              </div> <!-- / .services -->
+            </div>
+            <div class="col-sm-4">
+              <div class="services">
+                <div class="service-item">
+                  <i class="fa fa-mobile-phone"></i>
+                  <div class="service-desc">
+                    <h4>Utilities</h4>
+                  </div>
+                </div>
+              </div> <!-- / .services -->
+			</div>
+            <div class="col-sm-4">
+              <div class="services">
+                <div class="service-item">
+                  <i class="fa fa-gamepad"></i>
+                  <div class="service-desc">
+                    <h4>Entertainment</h4>
+                  </div>
+                </div>
+              </div> <!-- / .services -->
+			</div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="services">
+                <div class="service-item">
+                  <i class="fa fa-shopping-cart"></i>
+                  <div class="service-desc">
+                    <h4>E-commerce</h4>
+                  </div>
+                </div>
+              </div> <!-- / .services -->
+            </div>			  
+            <div class="col-sm-4">
+              <div class="services">
+                <div class="service-item">
+                  <i class="fa fa-plane"></i>
+                  <div class="service-desc">
+                    <h4>SaaS and subscription-based it services</h4>
+                  </div>
+                </div>
+              </div> <!-- / .services -->
+            </div>
+            <div class="col-sm-4">
+              <div class="services">
+                <div class="service-item">
+                  <i class="fa fa-suitcase"></i>
+                  <div class="service-desc">
+                    <h4>B2B services</h4>
+                  </div>
+                </div>
+              </div> <!-- / .services -->
+            </div>
+			</div>
+		</div>
+
+	<div class="benefit1" style="border-top: 1px solid #ddd; padding: 25px 0; background-color: #f6f6f6;">	
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4" style="text-align: center;">
+				<img src="img/icon_conversion.png" style="width: 150px;"></img>
+				</div>
+				<div class="col-sm-8" style="text-align: left; vertical-align: center;">
+				<h2>Boost your online conversion rate</h2>
+				<ul style="list-style-type: none;">
+				<li><i class="fa fa-check fa-2x" style="color: #ed3e49;"></i>  <h4 style="display: inline;">No CB data</h4></li>
+				<li><i class="fa fa-check fa-2x" style="color: #ed3e49;"></i>  <h4 style="display: inline;">A mandate for several purchases</h4><</li>
+				</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="benefit2" style="border-top: 1px solid #ddd; padding: 25px 0; background-color: white;">	
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-8" style="text-align: left; vertical-align: center;">
+				<h2>Increase customer loyalty</h2>
+				<ul style="list-style-type: none;">
+				<li><i class="fa fa-check fa-2x" style="color: #ed3e49;"></i>  <h4 style="display: inline;">No expiration date</h4></li>
+				<li><i class="fa fa-check fa-2x" style="color: #ed3e49;"></i>  <h4 style="display: inline;">No payment limit</h4></li>
+				</ul>
+				</div>
+				<div class="col-sm-4" style="text-align: center;">
+				<img src="img/icon_retention.png" style="width: 150px;"></img>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="benefit1" style="border-top: 1px solid #ddd; padding: 25px 0; background-color: #f6f6f6;">	
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4" style="text-align: center;">
+				<img src="img/icon_mobile.png" style="width: 150px;"></img>
+				</div>
+				<div class="col-sm-8" style="text-align: left; vertical-align: center;">
+				<h2>Fit to new consumption habits</h2>
+				<ul style="list-style-type: none;">
+				<li><i class="fa fa-check fa-2x" style="color: #ed3e49;"></i>  <h4 style="display: inline;">100% online</h4><</li>
+				<li><i class="fa fa-check fa-2x" style="color: #ed3e49;"></i>  <h4 style="display: inline;">Compatible with mobiles and tablets</h4><</li>
+				</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>	
 
 <?php
 include $path."/bas.php";

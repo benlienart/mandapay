@@ -75,3 +75,38 @@
     <script src="js/index.js"></script>
   </body>
 </html>
+
+<?php
+	
+	/* function send_email($from, $to, $titre, $message, $cci = false, $piecejointe = false)
+	{
+		// Envoi d'un mail
+		$entetedate = date("D, j M Y H:i:s");
+		$entetemail  =  "From: $from \n"; 
+		$entetemail .=  "Cc: \n"; 
+		$entetemail .=  "Bcc: $cci \n"; 
+		$entetemail .=  "Reply-To: $from \n"; 
+		$entetemail .=  "X-Mailer: PHP/" . phpversion() . "\n" ;
+		$entetemail .=  "Date: $entetedate\n";
+		$entetemail .=	 'Content-Type: text/plain; charset="UTF-8"\r\n'; 
+		
+		mail(
+			$to,
+			$titre,
+			$message,
+			$entetemail
+		);
+	} */
+
+
+	function check_format_email($email)
+	{
+		if (!preg_match("/^([a-zA-Z0-9_\-.])+@([a-zA-Z0-9_-])+(\.[a-zA-Z0-9_-]+)+/", $email))
+		{
+			return false;
+		} else
+		{
+			return true;
+		}
+	}
+?>

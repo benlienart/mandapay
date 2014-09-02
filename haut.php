@@ -36,7 +36,7 @@ $noindex = true;
     <link href="css/lightbox.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
-
+	<link href='//cdn-images.mailchimp.com/embedcode/classic-081711.css' rel='stylesheet' type='text/css'>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -59,18 +59,15 @@ $noindex = true;
           <a class="navbar-brand" href="index.php"><img src="img/logo.png" alt="..."></a>
         </div>
         <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
+          <a class="navbar-btn btn btn-red pull-right hidden-sm hidden-xs" href="demo_request.php" style="margin-left: 15px;">REQUEST A DEMO</a>
+		  <ul class="nav navbar-nav navbar-right">
 			<li class="hidden-sm active">
               <a href="index.php">Welcome</a>
-            <!--/li>
 			<li class="hidden-sm">
-              <a href=#>Solutions</a>
+              <a href="index.php#howItWorks">How it works</a>
             </li>
 			<li class="hidden-sm">
-              <a href=#>Features</a>
-            </li-->
-			<li class="hidden-sm">
-              <a href="shopping-cart.php">Demonstration</a>
+              <a href="index.php#whyMandapay">Why Mandapay</a>
             </li>
             <!--li class="hidden-sm">
               <a href=#>About us</a>

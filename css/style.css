@@ -7620,3 +7620,19 @@ footer .form-control {
 .tweet > p > a {
   display: block;
 }
+/*------------------------------------------------------------------
+Project:    Custo paperclip
+Author:    Benoit L.
+URL:        https://twitter.com/benlienart
+Version:    1.0
+Created:        18/08/2014
+Last change:    01/04/2014
+-------------------------------------------------------------------*/
+/* ===== Input group ===== */
+.double-input .form-control {
+    width: 50%;
+    border-right-width: 0px;
+}
+.double-input .form-control:focus {
+    border-right-width: 1px;
+}
