@@ -58,25 +58,25 @@ include $path."/haut.php";
 
 				</form>
 				<?php
-function send_email($from, $to, $titre, $message, $cci = false, $piecejointe = false)
-	{
-		// Envoi d'un mail
-		$entetedate = date("D, j M Y H:i:s");
-		$entetemail  =  "From: $from \n"; 
-		$entetemail .=  "Cc: \n"; 
-		$entetemail .=  "Bcc: $cci \n"; 
-		$entetemail .=  "Reply-To: $from \n"; 
-		$entetemail .=  "X-Mailer: PHP/" . phpversion() . "\n" ;
-		$entetemail .=  "Date: $entetedate\n";
-		$entetemail .=	 'Content-Type: text/plain; charset="UTF-8"\r\n'; 
-		
-		mail(
-			$to,
-			$titre,
-			$message,
-			$entetemail
-		);
-	}						
+				function send_email($from, $to, $titre, $message, $cci = false, $piecejointe = false)
+					{
+						// Envoi d'un mail
+						$entetedate = date("D, j M Y H:i:s");
+						$entetemail  =  "From: $from \n"; 
+						$entetemail .=  "Cc: \n"; 
+						$entetemail .=  "Bcc: $cci \n"; 
+						$entetemail .=  "Reply-To: $from \n"; 
+						$entetemail .=  "X-Mailer: PHP/" . phpversion() . "\n" ;
+						$entetemail .=  "Date: $entetedate\n";
+						$entetemail .=	 'Content-Type: text/plain; charset="UTF-8"\r\n'; 
+						
+						mail(
+							$to,
+							$titre,
+							$message,
+							$entetemail
+						);
+					}						
 						
 						if (isset($_POST['name'])&&isset($_POST['mail'])&&isset($_POST['phone']))
 						{
@@ -85,20 +85,20 @@ function send_email($from, $to, $titre, $message, $cci = false, $piecejointe = f
 							$phone = $_POST['phone']; 
 							if(preg_match('#^[\w.-]+@[\w.-]+\.[a-zA-Z]{2,6}$#', $mail)) 
 							{
-							  $name = "form.txt";
+							  $filename = "form.txt";
 							  $file = fopen($name, "a");
-							  fwrite($file, $name.";".$mail.";".$phone."\r\n");
+							  fwrite($filename, $name.";".$mail.";".$phone."\r\n");
 							  fclose($file);
-							  $message = "Bonjour,
+							  $message = "Hello,
 					  
-Nous vous confirmons l'inscription de votre adresse email sur notre liste de diffusion.
+Thanks for your interest in Mandapay.
 
-Nous vous informerons des actualités de Mandapay et nous vous enverrons des invitations pour utiliser nos services.
+We will get back to you soon to set up a demo.
 
-A très bientôt sur Mandapay !
-L’équipe Mandapay
+Best regards,
+The team @ Mandapay
 http://www.mandapay.com";
-							  send_email($from = "contact@mandapay.com", $mail, "Mandapay : confirmation d'inscription", $message, $cci = "contact@lawcracy.com", $piecejointe = false);					  
+							  send_email($from = "contact@mandapay.com", $mail, "Mandapay : demo request", $message, $cci = "contact@mandapay.com", $piecejointe = false);					  
 							  echo '<span style="color: green; font-size: 18px;">Thanks for your interest, we will keep you posted !</span>';
 							} else
 							{
