@@ -311,15 +311,6 @@ http://www.mandapay.com";
 						$message = $_POST['message']; 
 						if(preg_match('#^[\w.-]+@[\w.-]+\.[a-zA-Z]{2,6}$#', $mail)) 
 						{
-						  $message = "Hello,
-				  
-Thanks for your interest in Mandapay.
-
-We will get back to you soon to answer your request.
-
-Best regards,
-The team @ Mandapay
-http://www.mandapay.com";
 						  send_email($from = "contact@mandapay.com", $mail_admin = "contact@mandapay.com", "Mandapay : message from $name (email: $mail)", $message , $cci = false, $piecejointe = false);					  
 						  echo '<span style="color: green; font-size: 18px;">Thanks for your interest, we will keep you posted !</span>';
 						} else

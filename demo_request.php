@@ -85,7 +85,7 @@ include $path."/haut.php";
 						if(preg_match('#^[\w.-]+@[\w.-]+\.[a-zA-Z]{2,6}$#', $mail)) 
 						{
 						  $filename = "form.txt";
-						  $file = fopen($name, "a");
+						  $file = fopen($filename, "a");
 						  fwrite($filename, $name.";".$mail.";".$phone."\r\n");
 						  fclose($filename);
 						  $message = "Hello,
