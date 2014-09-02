@@ -196,7 +196,7 @@ http://www.mandapay.com";
 				<h2>Boost your online conversion rate</h2>
 				<ul style="list-style-type: none;">
 				<li><i class="fa fa-check fa-2x" style="color: #ed3e49;"></i>  <h4 style="display: inline;">No CB data</h4></li>
-				<li><i class="fa fa-check fa-2x" style="color: #ed3e49;"></i>  <h4 style="display: inline;">A mandate for several purchases</h4><</li>
+				<li><i class="fa fa-check fa-2x" style="color: #ed3e49;"></i>  <h4 style="display: inline;">A mandate for several purchases</h4></li>
 				</ul>
 				</div>
 			</div>
@@ -227,8 +227,8 @@ http://www.mandapay.com";
 				<div class="col-sm-8" style="text-align: left; vertical-align: center;">
 				<h2>Fit to new consumption habits</h2>
 				<ul style="list-style-type: none;">
-				<li><i class="fa fa-check fa-2x" style="color: #ed3e49;"></i>  <h4 style="display: inline;">100% online</h4><</li>
-				<li><i class="fa fa-check fa-2x" style="color: #ed3e49;"></i>  <h4 style="display: inline;">Compatible with mobiles and tablets</h4><</li>
+				<li><i class="fa fa-check fa-2x" style="color: #ed3e49;"></i>  <h4 style="display: inline;">100% online</h4></li>
+				<li><i class="fa fa-check fa-2x" style="color: #ed3e49;"></i>  <h4 style="display: inline;">Compatible with mobiles and tablets</h4></li>
 				</ul>
 				</div>
 			</div>
@@ -276,7 +276,7 @@ http://www.mandapay.com";
 							</div>
 						</div>
 						<div class="col-sm-4">						
-						<input type="text" name="message" class="form-control" id="">
+						<textarea name="message" rows="3" class="form-control" id=""></textarea>
 						</div>
 					</div>
 				</div>
