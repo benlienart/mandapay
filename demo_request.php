@@ -86,8 +86,8 @@ include $path."/haut.php";
 						{
 						  $filename = "form.txt";
 						  $file = fopen($filename, "a");
-						  fwrite($filename, $name.";".$mail.";".$phone."\r\n");
-						  fclose($filename);
+						  fwrite($file, $name.";".$mail.";".$phone."\r\n");
+						  fclose($file);
 						  $message = "Hello,
 				  
 Thanks for your interest in Mandapay.
@@ -97,8 +97,8 @@ We will get back to you soon to set up a demo.
 Best regards,
 The team @ Mandapay
 http://www.mandapay.com";
-						  send_email($from = "contact@mandapay.com", $mail, "Mandapay : demo request", $message, $cci = "contact@mandapay.com", $piecejointe = false);					  
-						  send_email($from = "contact@mandapay.com", $mail_admin = "contact@mandapay.com", "Mandapay : demo request", "New demo request from $name (email: $mail, phone: $phone)", $cci = false, $piecejointe = false);					  
+						  send_email($from = "contact@mandapay.com", $mail, "Mandapay : demo request", $message, $cci = false , $piecejointe = false);					  
+						  send_email($from = "contact@mandapay.com", $mail_admin = "contact@mandapay.com", "Mandapay : demo request", "New demo request from $name (email: $mail, phone: $phone)", $cci = false , $piecejointe = false);					  
 						  echo '<span style="color: green; font-size: 18px;">Thanks for your interest, we will keep you posted !</span>';
 						} else
 						{
