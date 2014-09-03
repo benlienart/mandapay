@@ -1,6 +1,6 @@
 <?php
 $title = isset($title) ? $title : "Mandapay - Pay online with your bank account...and nothing else";
-$noindex = true;
+$noindex = false;
 ?>
 
 <!DOCTYPE html>
@@ -12,14 +12,19 @@ $noindex = true;
     <meta name="description" content="Mandapay, le moyen de paiement sûr et simple pour le e-commerce">
     <meta name="author" content="">
 	<?php
-	if(isset($noindex))
+	if($noindex)
 		{
 		?>
 		<meta name="robots" content="noindex">
 		<?php
 		}
-		?> 
-
+	else 
+		{
+		?>
+		<meta name="robots" content="index">
+		<?php
+		}
+		?>
     <link rel="shortcut icon" href="ico/favicon.ico">
 
     <title><?php echo $title; ?></title>
